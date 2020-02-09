@@ -17,12 +17,13 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import BubbleChartIcon from "@material-ui/icons/BubbleChart";
 import ColorizeIcon from "@material-ui/icons/Colorize";
+import Container from "./container";
 
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
   root: {
-    
+    flexGrow: 1
   },
   appBar: {
     transition: theme.transitions.create(["margin", "width"], {
@@ -59,9 +60,6 @@ const useStyles = makeStyles(theme => ({
     justifyContent: "flex-end"
   },
   content: {
-    flexGrow: 1,
-    display: "flex",
-    flexDirection: "row",
     padding: theme.spacing(3),
     transition: theme.transitions.create("margin", {
       easing: theme.transitions.easing.sharp,
@@ -153,7 +151,9 @@ export default function PersistentDrawerLeft() {
         })}
       >
         <div className={classes.drawerHeader} />
+        
       </main>
+      <Container />
     </div>
   );
 }
