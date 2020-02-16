@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The website to access this is hosted on google firebase
+## Created with materiel UI Framework
+## Project Link juicefinder.web.app
 
 ## Available Scripts
 
