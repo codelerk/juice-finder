@@ -9,13 +9,10 @@ import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles({
   cardStyle: {
-    margin: 24,
-    mariginLeft: 100,
-    width: 550,
+    margin: 32,
+    width: 580,
     borderRadius: 25,
-    background: "transparent",
-    
-
+    background: "black"
   },
   media: {
     height: 300,
@@ -32,10 +29,7 @@ export default function MediaCard() {
     { name: "Beetle Juice", flavor: "Pinapple" },
     { name: "BlackBerry", flavor: "Blackberry" },
     { name: "Blue Crush", flavor: "Raspberry Ice" },
-    {
-      name: "BB Cotton Candy",
-      flavor: "BB Cotton Candy"
-    },
+    { name: "BB Cotton Candy", flavor: "BB Cotton Candy" },
     { name: "Blue Pom", flavor: "Blueberry Pomegranate" },
     { name: "Capt N Krunch", flavor: "Cereal" },
     { name: "Caramel Capp", flavor: "Caramel Cappuccino" },
