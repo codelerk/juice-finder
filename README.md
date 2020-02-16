@@ -1,6 +1,6 @@
 ## The website to access this is hosted on google firebase
 ## Created with materiel UI Framework
-## Project Link juicefinder.web.app
+## Project Link https://juicefinder.web.app
 
 ## Available Scripts
 
