@@ -26,56 +26,56 @@ export default function MediaCard() {
   const classes = useStyles();
 
   const houseJuiceData = [
-    { name: "Beetle Juice", flavor: "Pinapple" },
-    { name: "BlackBerry", flavor: "Blackberry" },
-    { name: "Blue Crush", flavor: "Raspberry Ice" },
-    { name: "BB Cotton Candy", flavor: "BB Cotton Candy" },
-    { name: "Blue Pom", flavor: "Blueberry Pomegranate" },
-    { name: "Capt N Krunch", flavor: "Cereal" },
-    { name: "Caramel Capp", flavor: "Caramel Cappuccino" },
-    { name: "Caramella", flavor: "Caramel Apple" },
-    { name: "Cherry", flavor: "Cherry" },
-    { name: "Cloud 9", flavor: "Strawberry, Peach" },
-    { name: "Damn Good Custard", flavor: "Vanilla Custard" },
-    { name: "Dragon's Blood", flavor: "Strawberry, Caramel Fruit " },
-    { name: "Famous Tobacco", flavor: "Mild Tobacco" },
-    { name: "Flamingo", flavor: "Peach, Orange" },
-    { name: "Frankenstien", flavor: "Mystery?" },
-    { name: "Gangsta Glazed", flavor: "Raspberry Donut" },
-    { name: "Cherry", flavor: "Cherry" },
-    { name: "Grapeful Dead", flavor: "Grape Hard Candy" },
-    { name: "Hop Scotch", flavor: "Butter Scotch Vanilla" },
-    { name: "Ice Queen", flavor: "Vanilla Peppermint" },
-    { name: "Iceberg", flavor: "Mint Menthol" },
-    { name: "Jawbreaker", flavor: "Jawbreaker Candy" },
-    { name: "Mad Melon", flavor: "Melon Mix" },
-    { name: "Reds", flavor: "Marlboro Reds" },
-    { name: "On The Rocks", flavor: "Tropical Fruit" },
-    { name: "Outlaw", flavor: "Pipe Tobacco" },
-    { name: "Peach", flavor: "Peach" },
-    { name: "Pineapple Express", flavor: "Pineapple" },
-    { name: "Purple Haze", flavor: "Grape Pixiesticks" },
-    { name: "Red Bull", flavor: "Red Bull Drink" },
-    { name: "Red Dawn", flavor: "Cherry Limeade" },
-    { name: "RY4", flavor: "Caramel Tobacco" },
-    { name: "Skitz", flavor: "Skittles" },
-    { name: "Sour Skitz", flavor: "Sour Skittles" },
-    { name: "Strawbango", flavor: "Strawberry, Banana, Mango" },
-    { name: "Strawberry Clouds", flavor: "Strawberry Milkshake" },
-    { name: "Summer Breeze", flavor: "Berries, Lemonade" },
-    { name: "Superman", flavor: "Sherbert Ice Cream" },
-    { name: "Sweet Tart", flavor: "Sweet Tart Candy" },
-    { name: "Top Shelf Tobacco", flavor: "Light Tobacco" },
-    { name: "VBHIC", flavor: "Vanilla Bean Hazelnut Ice Cream" },
-    { name: "Watermelon", flavor: "Watermelon" },
-    { name: "White Chocolate Mocha", flavor: "White Chocolate Mocha" },
-    { name: "Very Cherry", flavor: "Extra Cherry" },
+    { id: 1, name: "Beetle Juice", profile: "Pinapple" },
+    { id: 2, name: "BlackBerry", profile: "Blackberry" },
+    { id: 3, name: "Blue Crush", profile: "Raspberry Ice" },
+    { id: 4, name: "BB Cotton Candy", profile: "BB Cotton Candy" },
+    { id: 5, name: "Blue Pom", profile: "Blueberry Pomegranate" },
+    { id: 6, name: "Capt N Krunch", profile: "Cereal" },
+    { id: 7, name: "Caramel Capp", profile: "Caramel Cappuccino" },
+    { id: 8, name: "Caramella", profile: "Caramel Apple" },
+    { id: 9, name: "Cherry", profile: "Cherry" },
+    { id: 10, name: "Cloud 9", profile: "Strawberry, Peach" },
+    { id: 11, name: "Damn Good Custard", profile: "Vanilla Custard" },
+    { id: 12, name: "Dragon's Blood", profile: "Strawberry, Caramel Fruit " },
+    { id: 13, name: "Famous Tobacco", profile: "Mild Tobacco" },
+    { id: 14, name: "Flamingo", profile: "Peach, Orange" },
+    { id: 15, name: "Frankenstien", profile: "Mystery?" },
+    { id: 16, name: "Gangsta Glazed", profile: "Raspberry Donut" },
+    { id: 17, name: "Cherry", profile: "Cherry" },
+    { id: 18, name: "Grapeful Dead", profile: "Grape Hard Candy" },
+    { id: 19, name: "Hop Scotch", profile: "Butter Scotch Vanilla" },
+    { id: 20, name: "Ice Queen", profile: "Vanilla Peppermint" },
+    { id: 21, name: "Iceberg", profile: "Mint Menthol" },
+    { id: 22, name: "Jawbreaker", profile: "Jawbreaker Candy" },
+    { id: 23, name: "Mad Melon", profile: "Melon Mix" },
+    { id: 24, name: "Reds", profile: "Marlboro Reds" },
+    { id: 25, name: "On The Rocks", profile: "Tropical Fruit" },
+    { id: 26, name: "Outlaw", profile: "Pipe Tobacco" },
+    { id: 27, name: "Peach", profile: "Peach" },
+    { id: 28, name: "Pineapple Express", profile: "Pineapple" },
+    { id: 29, name: "Purple Haze", profile: "Grape Pixiesticks" },
+    { id: 30, name: "Red Bull", profile: "Red Bull Drink" },
+    { id: 31, name: "Red Dawn", profile: "Cherry Limeade" },
+    { id: 32, name: "RY4", profile: "Caramel Tobacco" },
+    { id: 33, name: "Skitz", profile: "Skittles" },
+    { id: 34, name: "Sour Skitz", profile: "Sour Skittles" },
+    { id: 35, name: "Strawbango", profile: "Strawberry, Banana, Mango" },
+    { id: 36, name: "Strawberry Clouds", profile: "Strawberry Milkshake" },
+    { id: 37, name: "Summer Breeze", profile: "Berries, Lemonade" },
+    { id: 38, name: "Superman", profile: "Sherbert Ice Cream" },
+    { id: 39, name: "Sweet Tart", profile: "Sweet Tart Candy" },
+    { id: 40, name: "Top Shelf Tobacco", profile: "Light Tobacco" },
+    { id: 41, name: "VBHIC", profile: "Vanilla Bean Hazelnut Ice Cream" },
+    { id: 42, name: "Watermelon", profile: "Watermelon" },
+    { id: 43, name: "White Chocolate Mocha", profile: "White Chocolate Mocha" },
+    { id: 44, name: "Very Cherry", profile: "Extra Cherry" },
   ];
 
   const juiceShowUp = houseJuiceData.map(juice => {
     return (
       <Grid container xs={4} flexDirection="row">
-        <Card className={classes.cardStyle}>
+        <Card key={juice.id} className={classes.cardStyle}>
           <CardActionArea>
             <CardMedia
               className={classes.media}
@@ -87,7 +87,7 @@ export default function MediaCard() {
                 {juice.name}
               </Typography>
               <Typography variant="h6" component="h3" style={{color: "white"}}>
-                {juice.flavor}
+                {juice.profile}
               </Typography>
             </CardContent>
           </CardActionArea>

@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
-import Navigate from "./Components/navbar";
+import Home from "./Views/Home";
 import "./css/index.css";
 
 function App() {
   return (
     <Fragment>
-      <Navigate />
+      <Home />
     </Fragment>
   );
 }

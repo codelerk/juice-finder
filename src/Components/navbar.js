@@ -17,7 +17,7 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import BubbleChartIcon from "@material-ui/icons/BubbleChart";
 import ColorizeIcon from "@material-ui/icons/Colorize";
-import Container from "./container";
+import Container from "./Container";
 
 const drawerWidth = 240;
 
@@ -134,7 +134,7 @@ export default function PersistentDrawerLeft() {
         </div>
         <Divider />
         <List>
-          {["Flavor", "Brands", "Top 10", "New", " Deals"].map(
+          {["Flavors", "Brands", "Top 10", "New", " Deals"].map(
             (text, index) => (
               <ListItem button key={text}>
                 <ListItemIcon>
