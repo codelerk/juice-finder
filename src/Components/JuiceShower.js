@@ -9,16 +9,24 @@ import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles({
   cardStyle: {
-    margin: 32,
-    width: 580,
-    borderRadius: 25,
-    background: "black"
+    margin: 22,
+    width: 300,
+    borderRadius: 18,
+    background: "black",
   },
   media: {
-    height: 300,
+    height: 340,
   },
   bottomCard: {
     background: "black",
+  },
+  cardTextTitle: {
+    color: "white",
+    fontSize: 28
+  },
+  cardTextSubtitle : {
+    color: "white",
+    fontSize: 16
   }
 });
 
@@ -74,7 +82,7 @@ export default function MediaCard() {
 
   const juiceShowUp = houseJuiceData.map(juice => {
     return (
-      <Grid container xs={4} flexDirection="row">
+      <Grid item>
         <Card key={juice.id} className={classes.cardStyle}>
           <CardActionArea>
             <CardMedia
@@ -83,10 +91,10 @@ export default function MediaCard() {
               title="House Juice Profile"
             />
             <CardContent className={classes.bottomCard}>
-              <Typography variant="h4" component="h2" style={{color: "white"}}>
+              <Typography variant="h4" component="h2" className={classes.cardTextTitle}>
                 {juice.name}
               </Typography>
-              <Typography variant="h6" component="h3" style={{color: "white"}}>
+              <Typography variant="h6" component="h5" className={classes.cardTextSubtitle}>
                 {juice.profile}
               </Typography>
             </CardContent>

@@ -109,8 +109,8 @@ export default function PersistentDrawerLeft() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h2" noWrap>
-            Planet Vapor E-Juice Finder
+          <Typography variant="h3" noWrap>
+            Juice Finder
           </Typography>
         </Toolbar>
       </AppBar>

@@ -8,8 +8,8 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
-        <Grid container spacing={3}>
+      <Container>
+        <Grid container spacing={1}>
           <HouseJuice />
         </Grid>
       </Container>
